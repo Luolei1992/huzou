@@ -1,0 +1,320 @@
+/*引导登陆页guide.html*/
+.guideWrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/bguide.png") no-repeat;
+    color: #ffffff;
+}
+.guideWrapCenter {
+    width: 782px;
+    height: 650px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -391px;
+    margin-top: -325px;
+}
+.guideTitle {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 50px;
+    margin-top: 22px;
+}
+.guideTitle .guideTitleEN {
+    font-size: 20px;
+}
+.guideMap {
+    width: 782px;
+    height: 500px;
+    position: relative;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -391px;
+    margin-top: -192px; */
+    background: url("../images/guidemap.png") no-repeat;
+}
+.guideMap .pieces {
+    font-size: 14px;
+}
+.guideMap .pieces span {
+    position: absolute;
+    font-size: 12px;
+}
+.guideMap .pieces .chang {
+    left: 84px;
+    top: 15px;
+}
+.guideMap .pieces .wu {
+    right: 116px;
+    top: 114px;
+}
+.guideMap .pieces .hu {
+    right: 191px;
+    top: 59px;
+}
+.guideMap .pieces .an {
+    left: 46px;
+    top: 212px;
+}
+.guideMap .pieces .nan {
+    bottom: 312px;
+    right: 12px;
+}
+.guideMap .pieces .de {
+    bottom: 145px;
+    right: 96px;
+}
+.guideTitleCNs {
+    font-size: 35px;
+}
+.guideMap .perCity {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: rgba(107,107,107,0.4);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4c6B6B6B,endColorstr=#4c6B6B6B);
+    padding: 20px 30px;
+}
+.guideMap .perCity p {
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+.guideMap .perCity ul li {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.guideMap .perCity ul li i {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    top: 1px;
+}
+.guideMap .perCity ul li.county1 i {
+    background-color: #FF9648;
+}
+.guideMap .perCity ul li.county2 i {
+    background-color: #9FC91F;
+}
+.guideMap .perCity ul li.county3 i {
+    background-color: #9FC91F;
+}
+.guideMap .perCity ul li.county4 i {
+    background-color: #00D1DF;
+}
+.guideMap .perCity ul li.county5 i {
+    background-color: #CE4DC8;
+}
+.guideMap .perCity ul li.county6 i {
+    background-color: #9C65E2;
+}
+/*login.html*/
+.loginWrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/bgLogin.png") no-repeat;
+    color: #ffffff;
+}
+.loginWrapCenter {
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+}
+.loginTitle {
+    text-align: center;
+    font-size: 32px;
+}
+.loginTitle p {
+    margin-bottom: 36px;
+}
+.loginTitle .loginTitleEN {
+    font-size: 27px;
+}
+.loginCart input {
+    display: block;
+    width: 203px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px 0 40px;
+    margin: 32px auto 0 auto;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background: url(../images/input.png) no-repeat;
+}
+.loginCart>div {
+    position: relative;
+}
+.loginCart i {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 157px;
+    top: 9px;
+}
+.banquan {
+    margin-top: 100px;
+    text-align: center;
+}
+.loginCart .username i {
+    background: url(../images/username.png) no-repeat;
+}
+.loginCart .password i {
+    background: url(../images/password.png) no-repeat;
+}
+.goLoginBtn ,.goLogin  {
+    width: 228px;
+    height: 38px;
+    margin: 0 auto;
+}
+.goLogin {
+    margin-top: 56px;
+    outline: none;
+    border: 0 none;
+    background:url("../images/submit.png") no-repeat;
+    cursor: pointer;
+}
+/* pageOne.html */
+.tiao, .ku,.searchVal {
+    background-color: transparent !important;
+    -webkit-box-shadow: 0px 0px 0px 0px transparent !important;
+    -moz-box-shadow: 0px 0px 0px 0px transparent !important;
+    box-shadow: 0px 0px 0px 0px transparent !important;
+}
+.tiao:hover, .ku:hover,.searchVal:hover {
+    background-color: transparent !important;
+    color: #000000 !important;
+}
+.searchVal input {
+    height: 26px;
+    line-height: 26px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 350px;
+    padding: 0 10px;
+}
+.mainRightTop li input[type=radio] {
+    position: relative;
+    top: 2px;
+}
+.tiao {
+    margin-right: 0 !important;
+}
+.ku {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+.searchVal {
+    width: 370px;
+    position: relative;
+    top: -1px;
+}
+.sou i {
+    background: url(../images/sou.png) no-repeat;
+}
+.sou:hover i {
+    background: url(../images/souH.png) no-repeat;
+}
+
+.hid i {
+    background: url(../images/hid.png) no-repeat;
+}
+/* .hid:hover i {
+    background: url(../images/hidH.png) no-repeat;
+} */
+
+.creat i {
+    background: url(../images/creat.png) no-repeat;
+}
+
+.creat:hover i {
+    background: url(../images/creatH.png) no-repeat;
+}
+.xianStyle i {
+    background: url(../images/xianStyle.png) no-repeat;
+}
+.xianStyle:hover i {
+    background: url(../images/xianStyleH.png) no-repeat;
+}
+.zhuStyle i {
+    background: url(../images/zhuStyle.png) no-repeat;
+}
+.zhuStyle:hover i {
+    background: url(../images/zhuStyleH.png) no-repeat;
+}
+.pieStyle i {
+    background: url(../images/pieStyle.png) no-repeat;
+}
+.pieStyle:hover i {
+    background: url(../images/pieStyleH.png) no-repeat;
+}
+.mainRightTop li {
+    position: relative;
+}
+.pubIpt {
+    margin-left: 10px !important;
+}
+.pubIpt input {
+    width: 100px;
+    height: 24px;
+    padding: 0 20px 0 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    top: -1px;
+    margin-left: 8px;
+}
+.pubIpt span {
+    width: 14px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    background: url(../images/datas.png) no-repeat;
+    right: 11px;
+    top: 6px;
+}
+.pubIpt select {
+    width: 120px;
+    height: 24px;
+    padding: 0 10px; 
+    outline: none;  
+    border:0 none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    top: -1px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

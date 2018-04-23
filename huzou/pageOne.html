@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>湖州市电子文件统一接收管理平台</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/detail.css">
+</head>
+<style>
+    .layui-layer-setwin .layui-layer-close1 {
+        background-position: -80px -40px !important;
+    }
+</style>
+<body>
+<div class="contain">
+    <div class="head">
+        <div class="headLeft fl clearfix">
+            <a href="index.html">
+                <i class="logo fl"></i>
+                <div class="fl titleWrap">
+                    <h2 class="titleCN">湖州市电子文件统一接收管理平台</h2>
+                    <h2 class="titleEN">huzhou electricnic document unified management platform</h2>
+                </div>
+            </a>
+        </div>
+        <div class="headRight">
+            <ul class="headRightLis clearfix">
+                <li class="search">
+                    <input type="text"><a href="#"><i></i></a>
+                </li>
+                <li class="welcome">
+                    <a href="#"><i></i>欢迎您 : admin</a>
+                </li>
+                <li class="message">
+                    <a href="#"><i></i>消息<span>5</span></a>
+                </li>
+                <li class="setting">
+                    <a href="setting.html"><i></i>设置</a>
+                </li>
+                <li class="quit">
+                    <a href="#"><i></i>退出</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="mainLeft clearfix">
+            <div class="mainLeftTop fl">
+                <img src="images/index.png" alt="">
+                <a href="index.html">首&nbsp;页</a>
+            </div>
+            <div class="mainLeftCenter fl">
+                <div class="getFilePlace">
+                    <h3>数据查询</h3>
+                    <!-- <ul class="mainLeftFst">
+                        <li>
+                            <i></i><span>文件接收管理</span>
+                        </li>
+                        <li>
+                            <i></i><span>接收检测日志</span>
+                        </li>
+                        <li>
+                            <i></i><span>系统文件接收</span>
+                        </li>
+                    </ul> -->
+                </div>
+                <div class="changeFilePlace">
+                    <h3>电子文件移交</h3>
+                    <!-- <ul class="mainLeftSec">
+                        <li>
+                            <i></i><span>数据查询</span>
+                        </li>
+                        <li>
+                            <i></i><span>电子文件移交</span>
+                        </li>
+                        <li>
+                            <i></i><span>电子文件接收</span>
+                        </li>
+                    </ul> -->
+                </div>
+                <div class="countFilePlace">
+                        <h3>电子文件接收</h3>
+                        <!-- <ul class="mainLeftTrd">
+                            <li>
+                                <i></i><span>档案分组统计</span>
+                            </li>
+                            <li>
+                                <i></i><span>档案图表统计</span>
+                            </li>
+                        </ul> -->
+                </div>
+                
+            </div>
+        </div>
+        <div class="mainRight">
+            <div class="mainRightTop">
+                <ul>
+                    <li class="tiao"><input type="radio" name="lei" value=""> <span>条目录</span></li>
+                    <li class="ku"><input type="radio" name="lei" value=""> <span>全文库</span></li>
+                    <li class="searchVal"><input type="text" name="" value=""></li>
+                    <li class="sou"><i></i> 搜索</li>
+                    <li class="hid dataVal"><i></i> 隐藏摘要</li>
+                    <li class="creat"><i></i> 创建索引</li>
+                </ul>
+            </div>
+            <div class="mainRightCenter">
+                <table id="tableFst">
+                    <tr>
+                        <th class="point2"></th>
+                        <th class="point2"><input type="checkbox"  id="checkAll"></th>
+                        <th class="point9">立档单位名称</th>
+                        <th class="point9">电子文件号</th>
+                        <th class="point9">保管期限</th>
+                        <th class="point9">归档时间</th>
+                        <th class="point9">权力事项类型</th>
+                        <th class="point18">责任处科室</th>
+                    </tr>
+                </table>
+                <table id="tableSec">
+                    <tr>
+                        <th class="point2">1</th>
+                        <th class="point2"><input type="checkbox" value="1"></th>
+                        <th class="point9">潮州市档案局</th>
+                        <th class="point9">330000019</th>
+                        <th class="point9">潮州市档案局</th>
+                        <th class="point9">潮州</th>
+                        <th class="point9">2017-12-12</th>
+                        <th class="point18">54655465-01-00190-012-2015-05年-000001</th>
+                    </tr>
+                    <tr>
+                        <th class="point2">2</th>
+                        <th class="point2"><input type="checkbox" value="2"></th>
+                        <th class="point9">潮州市档案局</th>
+                        <th class="point9">330000019</th>
+                        <th class="point9">潮州市档案局</th>
+                        <th class="point9">潮州</th>
+                        <th class="point9">2017-12-12</th>
+                        <th class="point18">54655465-01-00190-012-2015-05年-000001</th>
+                    </tr>
+                    <tr>
+                        <th class="point2">3</th>
+                        <th class="point2"><input type="checkbox" value="3"></th>
+                        <th class="point9">潮州市档案局</th>
+                        <th class="point9">330000019</th>
+                        <th class="point9">潮州市档案局</th>
+                        <th class="point9">潮州</th>
+                        <th class="point9">2017-12-12</th>
+                        <th class="point18">54655465-01-00190-012-2015-05年-000001</th>
+                    </tr>
+                    <tr>
+                        <th class="point2">4</th>
+                        <th class="point2"><input type="checkbox" value="4"></th>
+                        <th class="point9">潮州市档案局</th>
+                        <th class="point9">330000019</th>
+                        <th class="point9">潮州市档案局</th>
+                        <th class="point9">潮州</th>
+                        <th class="point9">2017-12-12</th>
+                        <th class="point18">54655465-01-00190-012-2015-05年-000001</th>
+                    </tr>
+                    <tr>
+                        <th class="point2">5</th>
+                        <th class="point2"><input type="checkbox" value="5"></th>
+                        <th class="point9">潮州市档案局</th>
+                        <th class="point9">330000019</th>
+                        <th class="point9">潮州市档案局</th>
+                        <th class="point9">潮州</th>
+                        <th class="point9">2017-12-12</th>
+                        <th class="point18">54655465-01-00190-012-2015-05年-000001</th>
+                    </tr>
+                    <tr>
+                        <th class="point2">6</th>
+                        <th class="point2"><input type="checkbox" value="6"></th>
+                        <th class="point9">潮州市档案局</th>
+                        <th class="point9">330000019</th>
+                        <th class="point9">潮州市档案局</th>
+                        <th class="point9">潮州</th>
+                        <th class="point9">2017-12-12</th>
+                        <th class="point18">54655465-01-00190-012-2015-05年-000001</th>
+                    </tr>
+                </table>
+            </div>
+            <div class="mainRightBottom">
+                <select name="pages" id="pages">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <ul class="clearfix">
+                    <li><img src="images/line.png" alt=""></li>
+                    <li><img src="images/leftpage.png" alt=""></li>
+                    <li><img src="images/left.png" alt=""></li>
+                    <li><img src="images/line.png" alt=""></li>
+                    <li class="text">第<input type="text">页</li>
+                    <li class="totalPage">共 <span>3</span> 页</li>
+                    <li><img src="images/line.png" alt=""></li>
+                    <li><img src="images/rightpage.png" alt=""></li>
+                    <li><img src="images/right.png" alt=""></li>
+                    <li><img src="images/line.png" alt=""></li>
+                    <li class="Breflash"><img src="images/Breflash.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    <!--弹窗内容-->
+    <div id="addMsgDetail" class="addMsgDetail">
+        <ul class="clearfix">
+            <li class="whichCompany">
+                <span>所属单位 : </span>
+                <input type="text"><i></i>
+            </li>
+            <li>
+                <span>单位代码 : </span>
+                <input type="text">
+            </li>
+            <li>
+                <span>单位名称 : </span>
+                <input type="text">
+            </li>
+            <li>
+                <span>单位地址 : </span>
+                <input type="text">
+            </li>
+        </ul>
+        <div class="addMsgBtn">
+            <button class="saveNewMsg">保存</button>
+            <button class="quitNewMsg">取消</button>
+        </div>
+    </div>
+    <!--底部-->
+    <div class="bottom">
+        <p>版权所有：湖州市电子文件统一接收平台</p>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="layer/dist/layer.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+/*引导登陆页guide.html*/
+.guideWrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/bguide.png") no-repeat;
+    color: #ffffff;
+}
+.guideTitle {
+    margin-top: 54px;
+    text-align: center;
+    font-size: 28px;
+}
+.guideTitle .guideTitleEN {
+    font-size: 20px;
+}
+.guideMap {
+    width: 872px;
+    height: 558px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -436px;
+    margin-top: -246px;
+    background: url("../images/guidemap.png") no-repeat;
+}
+.guideMap .pieces {
+    font-size: 14px;
+}
+.guideMap .pieces .chang {
+    position: absolute;
+}
+.guideMap .pieces .wu {
+
+}
+.guideMap .pieces .hu {
+
+}
+.guideMap .pieces .an {
+
+}
+.guideMap .pieces .nan {
+
+}
+.guideMap .pieces .de {
+
+}
+.guideMap .perCity {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: rgba(107,107,107,0.4);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4c6B6B6B,endColorstr=#4c6B6B6B);
+    padding: 20px 30px;
+}
+.guideMap .perCity p {
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+.guideMap .perCity ul li {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.guideMap .perCity ul li i {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    top: 1px;
+}
+.guideMap .perCity ul li.county1 i {
+    background-color: #FF9648;
+}
+.guideMap .perCity ul li.county2 i {
+    background-color: #9FC91F;
+}
+.guideMap .perCity ul li.county3 i {
+    background-color: #9FC91F;
+}
+.guideMap .perCity ul li.county4 i {
+    background-color: #00D1DF;
+}
+.guideMap .perCity ul li.county5 i {
+    background-color: #CE4DC8;
+}
+.guideMap .perCity ul li.county6 i {
+    background-color: #9C65E2;
+}
+/*login.html*/
+.loginWrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/bgLogin.png") no-repeat;
+    color: #ffffff;
+}
+.loginWrapCenter {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+}
+.loginTitle {
+    text-align: center;
+    font-size: 32px;
+}
+.loginTitle p {
+    margin-bottom: 36px;
+}
+.loginTitle .loginTitleEN {
+    font-size: 23px;
+}
+.loginCart input {
+    display: block;
+    width: 203px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px 0 40px;
+    margin: 32px auto 0 auto;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background: url(../images/input.png) no-repeat;
+}
+.loginCart>div {
+    position: relative;
+}
+.loginCart i {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 134px;
+    top: 9px;
+}
+.loginCart .username i {
+    background: url(../images/username.png) no-repeat;
+}
+.loginCart .password i {
+    background: url(../images/password.png) no-repeat;
+}
+.goLoginBtn ,.goLogin  {
+    width: 228px;
+    height: 38px;
+    margin: 0 auto;
+}
+.goLogin {
+    margin-top: 56px;
+    outline: none;
+    border: 0 none;
+    background:url("../images/submit.png") no-repeat;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

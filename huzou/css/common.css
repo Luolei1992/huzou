@@ -1,0 +1,743 @@
+/*公共头*/
+.head {
+    height: 60px;
+    background-color: #0B73BC;
+    color: #fff;
+    position: relative;
+    z-index: 100;
+}
+.head .titleWrap {
+    margin-top: 6px;
+    margin-left: 16px;
+}
+.head .titleWrap h2 {
+    font-weight:100;
+}
+.head .headLeft {
+    margin-left: 28px;
+    width: 536px;
+    text-align: center;
+}
+.head .logo {
+    width: 44px;
+    height: 44px;
+    display: block;
+    margin-top: 9px;
+    background: url("../images/logo.png") no-repeat;
+}
+.headLeft a {
+    color: #fff;
+}
+.head .titleCN {
+    font-size: 24px;
+}
+.head .titleEN {
+    font-size: 14px;
+}
+.headRight {
+    position: absolute;
+    line-height: 60px;
+    right: 30px;
+}
+.headRight a {
+    color: #fff;
+}
+.headRightLis li {
+    float: left;
+    position: relative;
+    margin-left: 16px;
+}
+.headRightLis .search input {
+    width: 148px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 24px 0 12px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+}
+.headRightLis li i {
+    width: 20px;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    margin-right: 2px;
+}
+.headRightLis .search i {
+    position: absolute;
+    right: 4px;
+    top: 22px;
+    background: url("../images/search.png") no-repeat;
+}
+.headRightLis .welcome i {
+    position: relative;
+    vertical-align: middle;
+    background: url("../images/admin.png") no-repeat;
+}
+.headRightLis .message i {
+    position: relative;
+    vertical-align: middle;
+    background: url("../images/message.png") no-repeat;
+}
+.headRightLis .message span {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: red;
+    right: -8px;
+    top: 15px;
+    font-size: 12px;
+}
+.headRightLis .setting i {
+    position: relative;
+    vertical-align: middle;
+    background: url("../images/tool.png") no-repeat;
+}
+.headRightLis .quit i {
+    position: relative;
+    vertical-align: middle;
+    background: url("../images/quit.png") no-repeat;
+}
+/*公共底部*/
+.bottom {
+    height: 40px;
+    width: 100%;
+    background-color: #0B73BC;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    z-index:1000;
+}
+/* ----------index.html----------- */
+/*中间版心*/
+.main {
+
+}
+.main .mainBg {
+    position: fixed;
+    bottom: 0;
+    height: 1000px;
+    width: 1920px;
+    left: 50%;
+    margin-left: -960px;
+    background: url("../images/bg.png") no-repeat;
+}
+.main .mainCenter {
+    width: 1080px;
+    height: 514px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -524px;
+    margin-top: -251px;
+}
+.main .mainCenter .mainLis li {
+    float: left;
+    margin: 2px;
+    height: 167px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    font-size: 14px;
+}
+.main .mainCenter .mainLis li p {
+    line-height: 28px;
+    font-size:16px;
+}
+.main .mainCenter .mainLis li img {
+    margin-top: 16px;
+}
+
+.main .mainCenter .mainLis .partPubCss_l {
+    width: 415px;
+}
+.main .mainCenter .mainLis .partPubCss_s {
+    width: 206px;
+}
+.main .mainCenter .mainLis .getFile.partPubCss_l p {
+    line-height: 50px;
+}
+.main .mainCenter .mainLis .getFile.partPubCss_l img {
+    margin-top: 90px;
+}
+.main .mainCenter .mainLis .getFile.partPubCss_l {
+    height: 338px;
+    background-color: #f8bf26;
+    font-size: 24px;
+}
+.main .mainCenter .mainLis .getFile.partPubCss_l:hover {
+    background-color: #F9C844;
+}
+.main .mainCenter .mainLis .checkFile.partPubCss_l {
+    background-color: #5e6ef0;
+}
+.main .mainCenter .mainLis .checkFile.partPubCss_l:hover {
+    background-color: #6E7CF7;
+}
+
+.main .mainCenter .mainLis .searchData.partPubCss_s {
+    background-color: #ec768f;
+}
+.main .mainCenter .mainLis .searchData.partPubCss_s:hover {
+    background-color: #EF8399;
+}
+
+.main .mainCenter .mainLis .changeFile.partPubCss_s {
+    background-color: #57d026;
+}
+.main .mainCenter .mainLis .changeFile.partPubCss_s:hover {
+    background-color: #63DA34;
+}
+
+.main .mainCenter .mainLis .getEmail.partPubCss_l {
+    background-color: #20c6b4;
+}
+.main .mainCenter .mainLis .getEmail.partPubCss_l:hover {
+    background-color: #4AD2C3;
+}
+
+.main .mainCenter .mainLis .fileGroup.partPubCss_l {
+    background-color: #88c903;
+}
+.main .mainCenter .mainLis .fileGroup.partPubCss_l:hover {
+    background-color: #9CCE37;
+}
+
+.main .mainCenter .mainLis .chart.partPubCss_s {
+    background-color: #42a7e0;
+}
+.main .mainCenter .mainLis .chart.partPubCss_s:hover {
+    background-color: #51B2EA;
+}
+
+.main .mainCenter .mainLis .authority.partPubCss_s {
+    background-color: #fb931b;
+}
+.main .mainCenter .mainLis .authority.partPubCss_s:hover {
+    background-color: #FF9F30;
+}
+
+.main .mainCenter .mainLis .addPart.partPubCss_s {
+    background-color: rgba(107,107,107,0.2);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#336B6B6B,endColorstr=#336B6B6B);
+}
+.main .mainCenter .mainLis .addPart.partPubCss_s:hover {
+    background-color: rgba(107,107,107,0.4);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4c6B6B6B,endColorstr=#4c6B6B6B);
+}
+.main .mainCenter .mainLis .addPart.partPubCss_s img {
+    margin-top: 38px;
+}
+/*----------setting.html------------*/
+.setCenter {
+    width: 860px;
+    height: 460px;
+    position: absolute;
+    margin-top: -220px;
+    margin-left: -430px;
+    left: 50%;
+    top: 50%;
+}
+.setCenter .settingLis li {
+    float: left;
+    width: 400px;
+    height: 200px;
+    margin: 15px;
+    text-align: center;
+    color: #fff;
+    background-color:blue;
+}
+.setCenter .settingLis li img {
+    margin-top: 32px;
+}
+.setCenter .settingLis li p {
+    line-height: 44px;
+    font-size: 16px;
+}
+.setCenter .settingLis li.userMaintain {
+    background-color:#0ec199;
+}
+.setCenter .settingLis li.userMaintain:hover {
+    background-color:#41CDAD;
+}
+.setCenter .settingLis li.systemSetup {
+    background-color:#ebb81e;
+}
+.setCenter .settingLis li.systemSetup:hover {
+    background-color:#F4C537;
+}
+.setCenter .settingLis li.manageDialog {
+    background-color:#e68b4e;
+}
+.setCenter .settingLis li.manageDialog:hover {
+    background-color:#F0A674;
+}
+.setCenter .settingLis li.Standard {
+    background-color:#3a93d1;
+}
+.setCenter .settingLis li.Standard:hover {
+    background-color:#5AA6DB;
+}
+
+.setCenter .settingLis li.userMaintain.getFile {
+    background-color:rgb(255,199,49);
+}
+.setCenter .settingLis li.userMaintain.getFile:hover {
+    background-color:rgb(255,209,87);
+}
+.setCenter .settingLis li.systemSetup.changeFile {
+    background-color:rgb(120,233,77);
+}
+.setCenter .settingLis li.systemSetup.changeFile:hover {
+    background-color:rgb(146,243,110);
+}
+.setCenter .settingLis li.manageDialog.chart {
+    background-color:rgb(246,120,188);
+}
+.setCenter .settingLis li.manageDialog.chart:hover {
+    background-color:rgb(254,137,201);
+}
+.setCenter .settingLis li.Standard.fileGroup {
+    background-color:rgb(255,152,33);
+}
+.setCenter .settingLis li.Standard.fileGroup:hover {
+    background-color:rgb(255,165,61);
+}
+/* ---------------contentDetails.html ** checkSystem.html--------------- */
+/* 公共左侧栏 */
+.mainLeft {
+    height: 42px;
+}
+
+.mainLeft .mainLeftCenter>div {
+    float: left;
+}
+.mainLeft>div {
+    margin-top: 6px;
+}
+.mainLeft .mainLeftTop {
+    height: 30px;
+    width: 78px;
+    line-height: 30px;
+    background-color: rgb(67,163,230);
+    color: #fff;
+    position: relative;
+    text-align: center;
+    margin-left: 20px;
+}
+.mainLeft .mainLeftTop:hover {
+    background-color: rgb(83,176,242);
+}
+.mainLeft .mainLeftTop a {
+    color: #fff;
+    font-size: 14px;
+}
+.mainLeft .mainLeftTop img {
+    position: relative;
+    left: -5px;
+    top: 3px;
+}
+.mainLeft h3 {
+    height: 30px;
+    background-color: rgb(67,163,230);
+    line-height: 30px;
+    color: #3F3F3F;
+    font-size: 14px;
+}
+.mainLeft h3:hover {
+    background-color: rgb(83,176,242);
+}
+.deepSilver {
+    background-color: #b4b0b0 !important;
+}
+.mainLeft ul li {
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #6F6F6F;
+    cursor: pointer;
+}
+.mainLeft ul li:hover {
+    color: #52ACED;
+    background-color: #eeebeb;
+}
+/* .mainLeft .getFilePlace {
+    margin-top: 6px;
+} */
+.mainLeft .mainLeftCenter ul {
+    /* display: none; */
+}
+/* .mainLeft .mainLeftCenter li, */
+.mainLeft .mainLeftCenter h3 {
+    cursor: pointer;
+    text-align: center;
+    padding: 0 10px;
+    position: relative;
+    margin-left: 6px;
+    color: #fff;
+}
+.mainLeft h3 i {
+    width: 16px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    left: 22px;
+    top: 8px;
+}
+/* .mainLeft .getFilePlace h3 i {
+    background: url(../images/getFP.png) no-repeat;
+}
+.mainLeft .changeFilePlace h3 i {
+    background: url(../images/changeFP.png) no-repeat;
+}
+.mainLeft .countFilePlace h3 i {
+    background: url(../images/countFP.png) no-repeat;
+}
+.mainLeft .turnFilePlace h3 i {
+    background: url(../images/turnFP.png) no-repeat;
+} */
+/* 右侧详细栏目 */
+.mainRight {
+    background-color: #F7F7F7;
+    position: fixed;
+    height: 100%;
+    left: 20px;
+    right: 20px;
+    top: 102px;
+    min-width: 800px;
+    border-left:1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+}
+#tableFst {
+    background-color: #EFEFEF;
+}
+#tableSec tr:nth-child(even) {
+    background-color: #EFEFEF;
+}
+.mainRight .mainRightTop {
+    height: 40px;
+    background-color: #E7E7E7;
+}
+.mainRight .mainRightBottom {
+    height: 28px;
+    border-top: 1px solid #DEDEDE;
+    position: fixed;
+    bottom: 56px;
+    right: 6px;
+    left: 20px;
+    min-width: 800px;    
+}
+.mainRightTop li {
+    float: left;
+    /* width: 60px; */
+    height: 26px;
+    padding: 0 8px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 8px 1px #cccccc;
+    -moz-box-shadow: 0px 0px 8px 1px #cccccc;
+    box-shadow: 0px 0px 8px 1px #cccccc;
+    line-height:26px;
+    text-align: center;
+    margin:7px 8px;
+    font-size:14px;
+    background-color: #fff;
+}
+.mainRightTop li i {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.mainRightTop li.addMsg i {
+    background:url(../images/addnew.png) no-repeat;
+}
+.mainRightTop li.addMsg:hover i {
+    background:url(../images/addnewf.png) no-repeat;
+}
+.mainRightTop li.del i {
+    background:url(../images/del.png) no-repeat;
+}
+.mainRightTop li.del:hover i {
+    background:url(../images/delf.png) no-repeat;
+}
+.mainRightTop li.changeLis i {
+    background:url(../images/change.png) no-repeat;
+}
+.mainRightTop li.changeLis:hover i {
+    background:url(../images/changef.png) no-repeat;
+}
+.mainRightTop li.reflash i {
+    background:url(../images/reflash.png) no-repeat;
+}
+.mainRightTop li.reflash:hover i {
+    background:url(../images/reflashf.png) no-repeat;
+}
+.mainRightTop li:hover {
+    background-color: #42A1E4;
+    color: #fff;
+}
+.mainRightTop li:active {
+    background-color: #2790da;
+    color: #fff;
+}
+.mainRightTop li img {
+    position: relative;
+    top: 3px;
+    left: -2px;
+    margin: 0 2px;
+}
+.mainRightCenter table {
+    border-collapse:collapse;
+    width:100%;
+    font-size:12px;
+}
+.mainRightCenter table td,
+.mainRightCenter table th{
+    border:1px solid #E7E7E7;
+    border-top: 0 none;
+    border-bottom: 0 none;
+    height: 28px;
+}
+.point2 {
+    width:3%;
+}
+.point9 {
+    width:13%;
+}
+.mainLeftWrapCopy {
+    width: 200px;
+    position: fixed;
+    right:-180px;
+    height: 100%;
+    top:60px;
+}
+.mainLeftCopy {
+    float: right;
+    width:180px;
+    background-color: #fff;
+    height: 100%;
+}
+.mainLeftWrapCopy .mainLeftCenter {
+    position: absolute;
+    top: 42px;
+    width: 180px;
+}
+.mainLeftWrapCopy .mainLeftCenter>div{
+    padding-left:38px;
+    height: 28px;
+    cursor: pointer;
+    line-height:28px;
+}
+.mainLeftWrapCopy .mainLeftTop {
+    padding-left:38px;
+    cursor: pointer;
+    height: 42px;
+    width: 142px;
+    float: left;
+    line-height:42px;
+    background-color: #239FEC;
+    font-size: 16px;
+}
+.mainLeftWrapCopy .mainLeftTop a {
+    color: #fff;
+}
+.mainLeftWrapCopy .mainLeftTop img {
+    position: relative;
+    top: 5px;
+    margin:0 10px 0 0;
+}
+.mainLeftWrapCopy .mainLeftCenter h3{
+     font-size:12px;
+ }
+.mainLeftWrapCopy .mainLeftCenter>div:hover{
+    background-color: #EEEAEA;
+    color: #52ACED;
+ }
+.rightSide {
+    height: 180px;
+    width: 20px;
+    background: url("../images/slides.png");
+    position: absolute;
+    left:0px;
+    top:50%;
+    margin-top:-90px;
+}
+
+.manger {
+    height: 40px;
+    line-height:40px;
+    text-indent:10px;
+}
+.mainLeft #mainLeftCenter .getFilePlace h3 i {
+    background: url(../images/weihu.png) no-repeat;
+}
+.mainLeft #mainLeftCenter .changeFilePlace h3 i {
+    background: url(../images/xitong.png) no-repeat;
+}
+.mainLeft #mainLeftCenter .countFilePlace h3 i {
+    background: url(../images/rizhi.png) no-repeat;
+}
+.mainLeft #mainLeftCenter .turnFilePlace h3 i {
+    background: url(../images/jsgf.png) no-repeat;
+}
+.mainLeft #mainLeftCenter h3,
+/* .mainLeft #mainLeftCenter ul li{
+    padding-left:60px;
+} */
+.mainLeft #mainLeftCenter h3 i {
+    left:36px;
+}
+
+/*弹窗内容*/
+.addMsgDetail {
+    padding:12px 0;
+    display: none;
+    font-size:12px;
+}
+.addMsgDetail li{
+    float: left;
+    height: 26px;
+    line-height:26px;
+    margin-left:22px;
+    margin-bottom:14px;
+    position: relative;
+}
+.addMsgDetail li input{
+    width: 134px;
+    height: 26px;
+    padding:0 5px;
+    line-height:26px;
+    border:1px solid #DEDEDE;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.addMsgDetail li.whichCompany input{
+    width: 113px;
+    padding-right: 26px;
+}
+.addMsgDetail .addMsgBtn{
+    position: absolute;
+    bottom:0;
+    left:50%;
+    margin-left:-98px;
+    width: 196px;
+    height:54px;
+}
+.addMsgDetail .addMsgBtn button{
+    width: 64px;
+    height: 26px;
+    line-height:26px;
+    color: #fff;
+    border:0 none;
+    outline:none;
+    margin: 16px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.addMsgDetail .addMsgBtn .saveNewMsg{
+    background-color: #3D88BC;
+}
+.addMsgDetail .addMsgBtn .quitNewMsg{
+    background-color: #FF5B5B;
+}
+.whichCompany i {
+    width: 26px;
+    height: 26px;
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 1px;
+    background: url(../images/select.png) no-repeat;
+}
+/*分页部分*/
+#pages {
+    width: 58px;
+    height: 20px;
+    display: inline-block;
+    border:1px solid #DEDEDE;
+    position: relative;
+    top: -10px;
+    margin-left: 6px;
+}
+.mainRightBottom ul {
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 12px;
+}
+.mainRightBottom ul li {
+    float: left;
+    width: 20px;
+    text-align: center;
+}
+.mainRightBottom ul li.text {
+    width: 90px;
+}
+.mainRightBottom ul li.text input {
+    width: 45px;
+    border: 1px solid #DDDDDD;
+    margin: 0 3px;
+    text-align: center;
+}
+.mainRightBottom ul li.totalPage {
+    width: 58px;
+}
+.mainRightBottom ul li.Breflash img {
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
